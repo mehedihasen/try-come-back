@@ -1,47 +1,58 @@
+//task no 01
+// Given:
+let a = 5;
+let b = 10;
+
+// TODO: Swap their values without hardcoding new numbers.
+// After swap → a = 10, b = 5
+
+// solve
+
+let temp = a; 
+    a    = b;
+    b    = temp;
 
 
-// Create variables for your name, age, and favorite food.
-// Print: "My name is ___, I am ___ years old, and I love ___!"
+// Create two variables: length = 8, width = 6
+// Find and print:
+// Area = length * width
+// Perimeter = 2 * (length + width)
+
+let length = 8;
+let width  = 6;
+
+let Area = length * width;
+let Perimeter = 2 * (length + width)
+
+console.log(Area, Perimeter)
 
 
-const myName ="mehedi"
-const myAge = 30;
-const myFavoriteFood ="beef vuna"
-let bio = `my name is  ${myName}, I am ${myAge} years old, and I love ${myFavoriteFood}!`
-console.log(bio)
+// Given: radius = 7
+// Use const PI = 3.1416
+// Calculate and print:
+// Area = PI * radius^2
+// Circumference = 2 * PI * radius 
+
+const radius = 7;
+const PI = 3.1416
+let Area2 = PI * radius**2
+let Circumference = 2 * PI * radius
+
+console.log(Circumference)
 
 
-
-// Take two numbers (a, b) and show sum, difference, product, division.
-// Example output: "Sum: 10, Difference: 4, Product: 21, Division: 2.33"
-
-const a = 7;
-const b = 3;
-
-let sum = a + b;
-let difference = a-b ;
-
-// Ask for a number and print if it is even or odd.
-
-const number = 10;
-  if(number % 2 === 0){
-      console.log('this is odd')
-      }
-      else{
-          console.log('this is even')
-      }
+// Create variables: firstName, lastName, country, age
+// Print: "Hi, I'm [firstName] [lastName] from [country]. I'm [age] years old."
+// (Use template literals, not + concatenation)
 
 
+const firstName = "Rohim"
+const lastName = "shek"
+const Country = "Bangladesh"
+const age = 60
+const address = `Hi, I'm ${firstName} ${lastName} from ${Country}. I'm ${age} years old.`
 
-// Create an array of 7 days.
-// Ask user for a number (1–7) and print the day name.
-
-let weekaOfDays =['Satuerday', 'Sunday','Monday','Tuesday','Wednesday','Thursday','Firyday'];
-weekaOfDays.map(x => console.log(x));
+console.log(address)
 
 
-
-// Generate a random number between 1–10.
-// Ask user to guess the number (use prompt).
-// Tell them if they guessed right or wrong.
 
